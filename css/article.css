@@ -1,0 +1,18 @@
+.article {
+    max-width: 700px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px darkgoldenrod;
+    margin: 20px auto;
+}
+
+.article__header {
+    color: brown;
+}
+
+.arcticle__paragraph {
+    color: coral;
+}
+
+.article__paragraph--highlighted {
+    color:rgb(160, 116, 60);
+}

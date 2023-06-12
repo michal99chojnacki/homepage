@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.naglowek {
+
+    color: blue;
+    background-color: rgb(215, 215, 255);
+}
+
+.naglowek2 {
+
+    color: crimson;
+    background-color: rgb(255, 233, 233);
+}
+
+.naglowek3 {
+
+    color: darkgoldenrod;
+    background-color: rgb(255, 249, 235);
+}
+
+.wireframe {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    overflow-x: auto;
+    background-color: beige;
+}
+
+
+.table {
+    padding: 5px;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 5px -5px 11px 3px #998466;
+}
+
+.tableCell {
+    border: 3px solid darkgoldenrod;
+    padding: 8px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: rgb(210, 204, 187);
+}
+
+.tableRow:hover {
+    background: rgb(210, 207, 201);
+}
+
+.list {
+    list-style-type: none;
+}
