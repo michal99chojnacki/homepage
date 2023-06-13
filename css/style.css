@@ -6,23 +6,22 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: rgb(254, 245, 222);
+}
 .naglowek {
-
-    color: blue;
-    background-color: rgb(215, 215, 255);
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    min-width: 300px;
+    color: white;
 }
 
-.naglowek2 {
-
-    color: crimson;
-    background-color: rgb(255, 233, 233);
-}
-
-.naglowek3 {
-
-    color: darkgoldenrod;
-    background-color: rgb(255, 249, 235);
-}
 
 .wireframe {
     max-width: 1000px;
@@ -30,15 +29,17 @@ html {
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
     overflow-x: auto;
-    background-color: beige;
+    text-align: center;
 }
 
 
 .table {
-    padding: 5px;
+    padding: 10px;
     border-collapse: collapse;
     width: 80%;
     box-shadow: 5px -5px 11px 3px #998466;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tableCell {
@@ -55,6 +56,20 @@ html {
     background: rgb(210, 207, 201);
 }
 
+.table__legend {
+    padding: 20px;
+}
+
 .list {
     list-style-type: none;
 }
+
+.obrazek {
+    border: none;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+}
+
